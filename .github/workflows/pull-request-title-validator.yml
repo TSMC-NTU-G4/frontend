@@ -16,6 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Validate pull request title
-        uses: kontrolplane/pull-request-title-validator@v1.4.1
+        uses: kontrolplane/pull-request-title-validator@v1.4.2
         with:
           types: "fix,feat,chore"
